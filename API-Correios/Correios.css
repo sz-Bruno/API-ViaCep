@@ -1,0 +1,55 @@
+body{
+    font-family: 'JetBrains Mono', monospace;
+    background-color: rgb(139, 185, 200);
+}
+
+
+
+.line{
+    width: 500px;
+    border: 1px solid rgb(74, 74, 162);
+}
+#container{
+    
+    border: 1px solid green;
+    width: 500px;
+    background-color:#C2C2C2 ;
+    border-radius: 8px;
+    margin: 50px auto;
+    box-shadow: black 10px 10px 10px;
+}
+#container p{
+    display:flex;
+    justify-content: center;
+}
+
+  h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+
+#inicio {
+    display:flex;
+   justify-content: center;
+   gap:10px;
+   align-items: center;
+}
+input{
+    border-radius: 10px;
+    height:40px;
+}
+#button{
+    background:#00BFA6;
+    box-shadow: grey 10px 10px 10px;
+    font-family: 'JetBrains Mono', monospace;
+}
+#button:hover{
+    background-color: #7b97df;
+    cursor: pointer;
+}
+#boxmail{
+    display:flex;
+    width: 90px;
+ 
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<head>
+    <script src="apicorreios.js"></script>
+    <link rel="stylesheet" href="correios.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+     <h1> 
+        <p>Consulta CEP</p>
+        <img id="boxmail" src='images/boxmail.svg' alt="" >
+    </h1>
+
+    <div id="inicio">
+   
+    <input type="number"  id="cep" placeholder="Sem Espaços 0000000">
+   <input id='button'type="button" value="Consultar" onclick="GetAdress()" >
+    </div>
+    <div id="container">
+   <p>CEP <img  id='map'src='images/maplocator.svg' > <p id="idcep"></p></p>
+    <p class="line"></p><p></p>
+    <p>LOGRADOURO  <img src="images/maplocator.svg" alt="" ><p id="idlogradouro"></p></p>
+    <p class="line"></p>
+    <p>COMPLEMENTO <img src="images/maplocator.svg" alt="" ><p id="idcomplemento"></p></p>
+    <p class="line"></p>
+    <p>BAIRRO <img src="images/maplocator.svg"" ><p id="idbairro"></p></p>
+    <p class="line"></p>
+    <p>LOCALIDADE <img src="images/maplocator.svg"" ><p id="idlocalidade"></p></p>
+    <p class="line"></p>
+    <p>UF <img src="images/maplocator.svg""><p id="iduf"></p></p>
+    <p class="line"></p>
+    <p>IBGE <img src="images/maplocator.svg"" ><p id="idibge"></p></p>
+    <p class="line"></p>
+   <p> GIA <img src="images/maplocator.svg" alt="" ><p id="idgia"></p></p>
+    <p class="line"></p>
+    <p>DDD <img src="images/maplocator.svg" alt="" ><p id="idddd"></p></p>
+    <p class="line"></p>
+    <p>SIAFI <img src="images/maplocator.svg" alt="" ><p id="idsiafi"></p><p>
+    </div>
+    
+</body>
+</html>
